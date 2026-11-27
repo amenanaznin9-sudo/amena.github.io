@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amena Naznin Tamanna | Education Portfolio</title>
+<meta name="description" content="Portfolio of Amena Naznin Tamanna, Master of Education student at the Institute of Education and Research, University of Dhaka.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f7f8fc; --line:#d9deef; --ink:#232286; --text:#2b2d42; --muted:#5d6180;
+  --margin:#e0605a; --hl:#ffe45c; --card:#ffffff;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Newsreader",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#14152b; --line:#24264a; --ink:#aab0ff; --text:#e6e7f5; --muted:#a0a4c8; --margin:#e0605a; --hl:#5a4d00; --card:#1b1c38;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; color:var(--text); font:400 1.15rem/1.65 var(--body);
+  background-color:var(--paper);
+  background-image:repeating-linear-gradient(to bottom,transparent 0,transparent 35px,var(--line) 35px,var(--line) 36px);
+}
+a{color:var(--ink)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--margin);outline-offset:3px}
+.page{max-width:860px;margin:0 auto;padding:0 1.25rem 4rem 3.5rem;position:relative}
+.page::before{content:"";position:absolute;left:1.6rem;top:0;bottom:0;width:2px;background:var(--margin);opacity:.55}
+nav{display:flex;gap:1.4rem;flex-wrap:wrap;padding:1.4rem 0;font:500 1rem var(--display)}
+nav a{text-decoration:none;border-bottom:2px solid transparent}
+nav a:hover{border-bottom-color:var(--margin)}
+header{padding:3rem 0 2.5rem}
+h1{font:700 clamp(2.6rem,8vw,4.8rem)/1.02 var(--display);color:var(--ink);margin:0 0 1.2rem;letter-spacing:-.02em}
+.role{font:500 1.25rem var(--display);margin:0 0 1.5rem}
+.note{background:var(--hl);display:inline;padding:.15rem .4rem;box-decoration-break:clone;-webkit-box-decoration-break:clone;font-style:italic;font-size:1.3rem;line-height:2;animation:sweep .9s ease-out both}
+@keyframes sweep{from{background-size:0 100%}to{background-size:100% 100%}}
+.note{background-image:linear-gradient(var(--hl),var(--hl));background-repeat:no-repeat;background-color:transparent}
+@media (prefers-reduced-motion:reduce){.note{animation:none}}
+.cta{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:2rem}
+.btn{display:inline-block;padding:.6rem 1.2rem;border:2px solid var(--ink);border-radius:4px;font:500 1rem var(--display);text-decoration:none;color:var(--ink);background:var(--card)}
+.btn.fill{background:var(--ink);color:var(--paper)}
+.btn:hover{transform:translateY(-2px)}
+section{padding:2rem 0 1rem}
+h2{font:700 1.7rem var(--display);color:var(--ink);margin:0 0 1.2rem}
+.entry{background:var(--card);border:2px solid var(--ink);border-radius:6px;padding:1rem 1.3rem;margin:0 0 1rem}
+.entry h3{font:700 1.2rem var(--display);margin:0}
+.entry p{margin:.15rem 0 0;color:var(--muted)}
+.when{font:500 .95rem var(--display);color:var(--margin);margin:0 0 .2rem}
+.entry.now{border-width:3px}
+.chips{display:flex;gap:.6rem;flex-wrap:wrap;padding:0;margin:0;list-style:none}
+.chips li{background:var(--card);border:2px solid var(--ink);border-radius:999px;padding:.25rem 1rem;font:500 1rem var(--display)}
+.contact dl{display:grid;grid-template-columns:max-content 1fr;gap:.4rem 1.5rem;margin:0}
+.contact dt{font:500 1rem var(--display);color:var(--muted)}
+.contact dd{margin:0;word-break:break-word}
+footer{margin-top:3rem;color:var(--muted);font-size:.95rem}
+@media (max-width:520px){.page{padding-left:2.6rem}.page::before{left:1.1rem}}
+</style>
+</head>
+<body>
+<div class="page">
+  <nav aria-label="Sections">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </nav>
+
+  <header id="about">
+    <h1>Amena Naznin Tamanna</h1>
+    <p class="role">Master of Education student, University of Dhaka</p>
+    <p class="note">I connect what I learn in the classroom with real teaching practice, so I can help grow Non-Formal Education in Bangladesh.</p>
+    <div class="cta">
+      <a class="btn fill" href="mailto:amenanaznin9@gmail.com">Send an email</a>
+      <a class="btn" href="#experience">See my experience</a>
+    </div>
+  </header>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <article class="entry">
+      <p class="when">September 2024 to February 2025</p>
+      <h3>Intern Teacher</h3>
+      <p>Hazaribagh Girls School and College</p>
+    </article>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <article class="entry now">
+      <p class="when">February 2026 to present</p>
+      <h3>Master of Education</h3>
+      <p>Institute of Education and Research, University of Dhaka</p>
+    </article>
+    <article class="entry">
+      <p class="when">2022 to 2026</p>
+      <h3>Bachelor of Education</h3>
+      <p>Institute of Education and Research, University of Dhaka</p>
+    </article>
+    <article class="entry">
+      <p class="when">2020</p>
+      <h3>Higher Secondary Certificate, Humanities</h3>
+      <p>Narayanganj Government Mohila College</p>
+    </article>
+    <article class="entry">
+      <p class="when">2018</p>
+      <h3>Secondary School Certificate, Science</h3>
+      <p>Narayanganj Government Girls' High School</p>
+    </article>
+  </section>
+
+  <section id="skills">
+    <h2>Skills and languages</h2>
+    <ul class="chips" aria-label="Skills and languages">
+      <li>Microsoft Word</li><li>Microsoft PowerPoint</li><li>Microsoft Excel</li><li>Bangla</li><li>English</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <dl>
+      <dt>Email</dt><dd><a href="mailto:amenanaznin9@gmail.com">amenanaznin9@gmail.com</a></dd>
+      <dt>Facebook</dt><dd><a href="https://www.facebook.com/share/18HXD4bxL2/" target="_blank" rel="noopener">Visit my profile</a></dd>
+      <dt>Location</dt><dd>Narayanganj, Bangladesh</dd>
+    </dl>
+  </section>
+
+  <footer>&copy; 2026 Amena Naznin Tamanna</footer>
+</div>
+</body>
+</html>
